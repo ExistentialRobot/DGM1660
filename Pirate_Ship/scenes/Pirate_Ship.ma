@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Pirate_Ship.ma
-//Last modified: Wed, Sep 20, 2017 09:21:34 PM
+//Last modified: Wed, Sep 20, 2017 09:27:04 PM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -14,8 +14,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "3848F0D1-4E95-5356-80BA-ECA34DFF47B4";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 3.1284281750632954 4.558759730749296 -5.8123922259249987 ;
-	setAttr ".r" -type "double3" -23.138352720167024 -925.40000000032614 0 ;
+	setAttr ".t" -type "double3" -3.7782402824003993 2.9619967898517441 -6.0583730511504141 ;
+	setAttr ".r" -type "double3" -11.138352720166042 -871.40000000024691 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "48AA2DB7-4887-A220-7CA6-9AB8CEB4652A";
 	setAttr -k off ".v" no;
